@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import ARbarzaar from "../../Assets/Projects/ARbarzaar.png";
 import Bookflow from "../../Assets/Projects/Bookflow.png";
 import Speedcatcher from "../../Assets/Projects/Speedcatcher.png";
+import VibeVerdict from "../../Assets/Projects/vibeVerdict.jpg";
 
 function Projects() {
   return (
@@ -46,6 +47,16 @@ function Projects() {
               title="Speedcatcher.io"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
               ghLink="https://github.com/rohitagr0310/Projects/tree/main/Speed%20Runner"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={VibeVerdict}
+              isBlog={false}
+              title="VibeVerdict"
+              description="The Sentiment Analysis Web App is a robust and user-friendly application that leverages the power of machine learning to analyze and classify sentiments from text input. This project seamlessly integrates Flask, PyTorch, and TensorFlow, providing a comprehensive solution for sentiment analysis tasks."
+              ghLink="https://github.com/rohitagr0310/VibeVerdict"
             />
           </Col>
         </Row>
