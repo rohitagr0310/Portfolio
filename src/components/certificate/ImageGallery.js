@@ -30,22 +30,6 @@ const ImageGallery = ({ children }) => {
     }
   });
 
-  //console.log(group, Object.entries(group), '1')
-
-  Object.entries(group).map((key, value) => console.log(key, value))
-
-  const imageInfo = imagePaths.map((imagePath) => {
-    const imagePathString = imageContext(imagePath);
-    const originalFilename = imagePathString
-      ? imagePathString.split("/").pop().split(".")[0]
-      : "Unknown";
-
-    return {
-      title: originalFilename,
-      path: imagePathString,
-    };
-  });
-
   return <>{children(group)}</>;
 };
 
