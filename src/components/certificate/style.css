@@ -1,5 +1,5 @@
 .accordion-button {
-    background-color: transparent;
-    color: #fff;
-    text-align: center;
+    background-color: transparent !important;
+    color: #fff !important;
+    text-align: center !important;
 }

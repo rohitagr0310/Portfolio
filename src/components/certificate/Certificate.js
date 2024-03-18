@@ -21,7 +21,7 @@ function Certificates() {
               <Accordion style={{ backgroundColor: "transparent", paddingBottom: "10px" }} defaultActiveKey="0">
                 {Object.entries(imageInfo).map((key, index) => (
                   <Accordion.Item style={{ backgroundColor: "transparent", paddingBottom: "10px" }} eventKey={index}>
-                    <Accordion.Header>{key[0]}</Accordion.Header>
+                    <Accordion.Header style={{ justifyContent: "center", paddingBottom: "10px" }}>{key[0]}</Accordion.Header>
                     <Accordion.Body>
                       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                         {key[1].map(({ title, path }, index) => (
