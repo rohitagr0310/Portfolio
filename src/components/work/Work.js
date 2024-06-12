@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import bharatintern from "../../Assets/work/bharatintern.png";
 import ibm from "../../Assets/work/ibm.png";
 import mouktik from "../../Assets/work/mouktik.png";
+import eisystem from "../../Assets/work/eisystem.png";
 
 function Work() {
   return (
