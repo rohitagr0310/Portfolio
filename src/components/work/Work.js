@@ -18,6 +18,16 @@ function Work() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <WorkCards
+              imgPath={eisystem}
+              isBlog={false}
+              title="Data Science Intern - EISystems Services"
+              description="Internship duration: 04/03/2024 - 29/04/2024, Udaipur, India. Data Science with Python. Learned about python and build 8 project of datascience with the final internship report."
+              linkedInLink="https://www.linkedin.com/posts/rohitagarwal2610_rohit-agarwal-certificate-of-internship-activity-7196771744769052673-d47t?utm_source=share&utm_medium=member_desktop"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <WorkCards
               imgPath={bharatintern}
               isBlog={false}
               title="Data Science Intern - Bharat Intern"
