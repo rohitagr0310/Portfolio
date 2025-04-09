@@ -179,7 +179,7 @@ function ProjectCard({ project, index, inView }: { project: any; index: number; 
             </div>
           )}
         </CardContent>
-        <CardFooter className="pt-0">
+        {/* <CardFooter className="pt-0">
           <Button
             variant="outline"
             size="sm"
@@ -187,7 +187,7 @@ function ProjectCard({ project, index, inView }: { project: any; index: number; 
           >
             <ExternalLink className="h-4 w-4 mr-2" /> View Project
           </Button>
-        </CardFooter>
+        </CardFooter> */}
       </Card>
     </motion.div>
   )
